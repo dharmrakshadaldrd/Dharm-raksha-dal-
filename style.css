@@ -185,3 +185,42 @@ transition:.3s;
 background:white;
 color:#ff6600;
   }
+.team{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+padding:30px 20px;
+}
+
+.member{
+background:#fff;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+text-align:center;
+width:260px;
+transition:.3s;
+}
+
+.member:hover{
+transform:translateY(-8px);
+}
+
+.member img{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #ff6600;
+margin-bottom:15px;
+}
+
+.member h3{
+margin:10px 0 5px;
+color:#ff6600;
+}
+
+.member p{
+font-weight:bold;
+}
