@@ -224,3 +224,13 @@ color:#ff6600;
 .member p{
 font-weight:bold;
 }
+.main-logo{
+width:120px;
+height:120px;
+border-radius:50%;
+background:#fff;
+padding:8px;
+display:block;
+margin:0 auto 20px;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
