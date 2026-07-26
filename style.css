@@ -302,3 +302,25 @@ box-shadow:0 5px 15px rgba(0,0,0,.3);
 }
 
 }
+#donate{
+background:#fff7eb;
+padding:60px 20px;
+text-align:center;
+}
+
+.foundation-logo{
+width:180px;
+max-width:80%;
+margin:20px auto;
+display:block;
+border-radius:50%;
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+}
+
+.donation-buttons{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+margin-top:25px;
+}
