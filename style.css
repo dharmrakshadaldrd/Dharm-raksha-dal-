@@ -324,3 +324,11 @@ justify-content:center;
 gap:15px;
 margin-top:25px;
 }
+.donate-poster{
+width:100%;
+max-width:450px;
+display:block;
+margin:20px auto;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
