@@ -14,7 +14,7 @@ p<!DOCTYPE html>
 <header>
   <img src="logo.png" alt="Dharm Raksha Dal Logo" class="main-logo">
 <div class="logo">
-<h2>🚩 DHARM RAKSHA DAL</h2>
+<h2 id="orgName"></h2>
 <p>सेवा • सुरक्षा • संस्कार</p>
 </div>
 
@@ -32,7 +32,7 @@ p<!DOCTYPE html>
 
 <div class="hero-overlay">
 
-<h1>🚩 धर्म रक्षा दल</h1>
+<h1 id="heroName"></h1>
 
 <h2>सेवा • सुरक्षा • संस्कार</h2>
 
@@ -162,6 +162,9 @@ Namaste Bihar Foundation, धर्म रक्षा दल का एक स�
 <p>© 2026 Dharm Raksha Dal</p>
 
 </footer>
-
+<script>
+document.getElementById("orgName").innerText = "🚩 " + CONFIG.orgName;
+document.getElementById("heroName").innerText = "🚩 " + CONFIG.orgName;
+</script>
 </body>
 </html>
