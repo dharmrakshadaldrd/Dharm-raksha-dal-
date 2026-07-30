@@ -12,7 +12,7 @@ p<!DOCTYPE html>
 <body>
 
 <header>
-  <img src="logo.png" alt="Dharm Raksha Dal Logo" class="main-logo">
+  <img id="mainLogo" src="" alt="Logo" class="main-logo">
 <div class="logo">
 <h2 id="orgName"></h2>
 <p>सेवा • सुरक्षा • संस्कार</p>
@@ -172,6 +172,7 @@ document.getElementById("footerOrg").innerText = CONFIG.orgName;
 document.getElementById("email").innerText = CONFIG.email;
 document.getElementById("mobile").innerText = CONFIG.mobile;
   document.getElementById("copyright").innerText = CONFIG.orgName;
+  document.getElementById("mainLogo").src = CONFIG.logo;
 </script>
 </body>
 </html>
